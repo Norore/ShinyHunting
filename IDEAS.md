@@ -29,6 +29,6 @@ Pour chaque fiche d'un zone, il y aura la liste des Pokémons que l'on peut y re
 * son niveau maximum dans la zone
 * le nombre de fois où on l'a rencontré (0 par défaut)
 * si on peut le croiser par Horde
-* si c'est un fuyard ou un crieur (Hurlement/Cyclone)
+* si c'est un fuyard (Téléporte, Fuite) ou un crieur (Hurlement/Cyclone)
 
 # Organisation de l'interface du logiciel
