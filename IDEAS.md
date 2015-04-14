@@ -36,15 +36,15 @@ Exemple pour Zigzaton (route 104) :
 {
   [
     {
-      id: 263,
-      name: "Zigzaton",
-      lvlmin: 4,
-      lvlmax: 5,
-      see: 0,
-      horde: True,
-      flee: False,
-      cry: False,
-    },
+      "id": 263,
+      "name": "Zigzaton",
+      "lvlmin": 4,
+      "lvlmax": 5,
+      "see": 0,
+      "horde": True,
+      "flee": False,
+      "cry": False
+    }
   ]
 }
 ```
