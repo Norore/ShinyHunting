@@ -41,9 +41,9 @@ Exemple pour Zigzaton (route 104) :
       "lvlmin": 4,
       "lvlmax": 5,
       "see": 0,
-      "horde": True,
-      "flee": False,
-      "cry": False
+      "horde": "True",
+      "flee": "False",
+      "cry": "False"
     }
   ]
 }
