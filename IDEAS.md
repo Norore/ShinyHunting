@@ -20,6 +20,17 @@ La technologie utilisée pour créer la base de données sera du JSON.
 
 ## Hiérarchie des fichiers
 
+/db/
+  index.json
+  caves/
+    index.json
+  cities/
+    index.json
+  roads/
+    index.json
+    101.json
+    102.json
+
 ## Fiche pour un Pokémon
 
 Pour chaque fiche d'une zone, il y aura la liste des Pokémons que l'on peut y rencontrer. Pour chaque Pokémon on pourra savoir :
@@ -50,3 +61,29 @@ Exemple pour Zigzaton (route 104) :
 ```
 
 # Organisation de l'interface du logiciel
+
+Une grand fenêtre divisée en 4 parties :
+* une barre de menu en haut, à l'horizontal
+* une barre d'état en bas, à l'horizontal
+* une partie de menu de sélection à gauche, à la verticale
+* une grande partie d'affichage des données à droite, à la verticale 
+
+## Barre de menu
+
+## Barre d'état
+
+## Menu de sélection
+
+Permet de sélectionner le type de lieu (cave, ville ou route) puis le nom du lieu.
+
+## Affichage des données
+
+Permet d'avoir le visuel des données sur les pokémon en fonction du lieu.
+
+Chaque fiche est affichée l'une sous l'autre.
+
+Pour chaque fiche on doit pouvoir :
+* incrémenter de 1 pour chaque rencontre
+* si c'est une rencontre par horde, incrémenter de 5 pour chaque horde rencontrée
+* proposer également d'additionner au nombre actuel un nombre compté à l'aide d'un compteur
+* pouvoir réinitialiser le nombre en un clic. Demander confirmation avant de réinitialiser le nombre.
