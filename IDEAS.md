@@ -20,6 +20,7 @@ La technologie utilisée pour créer la base de données sera du JSON.
 
 ## Hiérarchie des fichiers
 
+```txt
 /db/
   index.json
   caves/
@@ -30,6 +31,7 @@ La technologie utilisée pour créer la base de données sera du JSON.
     index.json
     101.json
     102.json
+```
 
 ## Fiche pour un Pokémon
 
